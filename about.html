@@ -158,7 +158,8 @@
     <div class="story-scene" data-hero-scene data-parallax-trigger data-parallax-start="top top"
       data-parallax-end="bottom bottom">
 
-      <section class="section about-story" id="history" data-nav-tone="dark" aria-labelledby="about-story-title">
+      <section class="section about-story" id="history" data-story-gallery data-nav-tone="dark"
+        aria-labelledby="about-story-title">
         <div class="hero__wave" aria-hidden="true"></div>
         <div class="container about-story__inner">
           <header class="about-story__head">
@@ -175,7 +176,7 @@
             <div class="about-story__col about-story__col--left">
               <figure class="about-story__figure about-story__figure--archive parallax-media" data-animate
                 data-parallax-trigger>
-                <img src="./assets/history_2.jpg"
+                <img src="./assets/1left.jpg"
                   alt="Historic bridge over the Mtkvari River in old Tbilisi" width="720" height="840" loading="lazy"
                   data-parallax-speed="0.4" />
               </figure>
@@ -202,11 +203,23 @@
             </div>
 
             <div class="about-story__col about-story__col--right">
-              <figure class="about-story__figure about-story__figure--render parallax-media" data-animate
-                data-animate-delay="1" data-parallax-trigger>
-                <img src="./assets/history_1.jpg"
-                  alt="Sakanela development in the Tbilisi skyline beneath Mtatsminda" width="1200" height="960"
-                  loading="lazy" data-parallax-speed="0.5" />
+              <figure class="about-story__figure about-story__figure--render" data-animate data-animate-delay="1">
+                <div class="about-story__slides" data-story-slider>
+                  <figure class="about-story__slide" data-story-slide>
+                    <img src="./assets/1.jpg"
+                      alt="Sakanela beside the Tbilisi skyline, with the television tower on the hill" width="1122"
+                      height="920" loading="lazy" />
+                  </figure>
+                  <figure class="about-story__slide" data-story-slide>
+                    <img src="./assets/2.jpg"
+                      alt="Aerial view of Sakanela along the Mtkvari River" width="1122" height="920" loading="lazy" />
+                  </figure>
+                  <figure class="about-story__slide" data-story-slide>
+                    <img src="./assets/3.jpg"
+                      alt="Sakanela facade overlooking the Mtkvari River and the city" width="1122" height="920"
+                      loading="lazy" />
+                  </figure>
+                </div>
               </figure>
             </div>
           </div>
@@ -377,7 +390,7 @@
           </ul>
         </div>
         <figure class="masterplan__media">
-          <img src="./assets/history_2.jpg"
+          <img src="./assets/masterplan.jpg"
             alt="Sakanela beside the Mtkvari River, near Republic Square" width="1200" height="800" loading="lazy" />
         </figure>
       </div>
@@ -397,21 +410,17 @@
           <div class="lifestyle__media">
             <div class="lifestyle__slides">
               <figure class="lifestyle__slide" data-lifestyle-slide>
-                <img src="./assets/living-relaxation.jpg"
+                <img src="./assets/12.jpg"
                   alt="Courtyard and pool framed by Sakanela’s architecture" width="1200" height="800"
                   loading="lazy" />
               </figure>
               <figure class="lifestyle__slide" data-lifestyle-slide>
-                <img src="./assets/living-fitness.jpg"
+                <img src="./assets/24.jpg"
                   alt="Outdoor pool framed by a timber deck and garden" width="1200" height="800" loading="lazy" />
               </figure>
               <figure class="lifestyle__slide" data-lifestyle-slide>
-                <img src="./assets/living-work.jpg"
+                <img src="./assets/32.jpg"
                   alt="Quiet office corridor with glass-walled workspaces" width="1200" height="801" loading="lazy" />
-              </figure>
-              <figure class="lifestyle__slide" data-lifestyle-slide>
-                <img src="./assets/living-spa.jpg" alt="Dumbbell rack in a sunlit gym" width="1200"
-                  height="800" loading="lazy" />
               </figure>
             </div>
           </div>
@@ -478,21 +487,17 @@
           <div class="appartments__media">
             <div class="appartments__slides">
               <figure class="appartments__slide" data-appartments-slide>
-                <img src="./assets/living-meetings.jpg"
+                <img src="./assets/13.jpg"
                   alt="Daylit room with a long table and floor-to-ceiling windows" width="1200" height="800"
                   loading="lazy" />
               </figure>
               <figure class="appartments__slide" data-appartments-slide>
-                <img src="./assets/living-work.jpg" alt="Open interior with a kitchen and seating"
+                <img src="./assets/22.jpg" alt="Open interior with a kitchen and seating"
                   width="1200" height="800" loading="lazy" />
               </figure>
               <figure class="appartments__slide" data-appartments-slide>
-                <img src="./assets/living-spa.jpg" alt="Calm interior finished in warm timber and stone"
+                <img src="./assets/34.jpg" alt="Calm interior finished in warm timber and stone"
                   width="1200" height="800" loading="lazy" />
-              </figure>
-              <figure class="appartments__slide" data-appartments-slide>
-                <img src="./assets/living-relaxation.jpg"
-                  alt="Outdoor pool and timber deck beside the residences" width="1200" height="800" loading="lazy" />
               </figure>
             </div>
           </div>
@@ -504,28 +509,28 @@
           <ul class="appartments__types-list">
             <li class="appartments__type">
               <figure class="appartments__type-media" data-animate="fade">
-                <img src="./assets/appartment.jpg" alt="Isometric view of a one bedroom apartment"
+                <img src="./assets/14.jpg" alt="Isometric view of a one bedroom apartment"
                   width="700" height="600" loading="lazy" />
               </figure>
               <p class="appartments__type-name">One bedroom</p>
             </li>
             <li class="appartments__type">
               <figure class="appartments__type-media" data-animate="fade" data-animate-delay="1">
-                <img src="./assets/appartment.jpg" alt="Isometric view of a two bedroom apartment"
+                <img src="./assets/25.jpg" alt="Isometric view of a two bedroom apartment"
                   width="700" height="600" loading="lazy" />
               </figure>
               <p class="appartments__type-name">Two bedroom</p>
             </li>
             <li class="appartments__type">
               <figure class="appartments__type-media" data-animate="fade" data-animate-delay="2">
-                <img src="./assets/appartment.jpg" alt="Isometric view of a three bedroom apartment"
+                <img src="./assets/33.jpg" alt="Isometric view of a three bedroom apartment"
                   width="700" height="600" loading="lazy" />
               </figure>
               <p class="appartments__type-name">Three bedroom</p>
             </li>
             <li class="appartments__type">
               <figure class="appartments__type-media" data-animate="fade" data-animate-delay="3">
-                <img src="./assets/appartment.jpg" alt="Isometric view of a duplex apartment"
+                <img src="./assets/4.jpg" alt="Isometric view of a duplex apartment"
                   width="700" height="600" loading="lazy" />
               </figure>
               <p class="appartments__type-name">Duplex</p>
@@ -550,22 +555,22 @@
           <div class="amenities__media">
             <div class="amenities__slides">
               <figure class="amenities__slide" data-amenities-slide>
-                <img src="./assets/living-relaxation.jpg"
+                <img src="./assets/15.jpg"
                   alt="Indoor pool and timber wellness room" width="1200" height="800" loading="lazy" />
                 <figcaption class="amenities__caption">A premium spa<br />and wellness area</figcaption>
               </figure>
               <figure class="amenities__slide" data-amenities-slide>
-                <img src="./assets/living-fitness.jpg" alt="Indoor swimming pool" width="1200"
+                <img src="./assets/23.jpg" alt="Indoor swimming pool" width="1200"
                   height="800" loading="lazy" />
                 <figcaption class="amenities__caption">A 25 metre indoor<br />swimming pool</figcaption>
               </figure>
               <figure class="amenities__slide" data-amenities-slide>
-                <img src="./assets/living-spa.jpg" alt="Fitness centre with open training floor"
+                <img src="./assets/35.jpg" alt="Fitness centre with open training floor"
                   width="1200" height="800" loading="lazy" />
                 <figcaption class="amenities__caption">An expansive 600 sq.m<br />fitness centre</figcaption>
               </figure>
               <figure class="amenities__slide" data-amenities-slide>
-                <img src="./assets/living-meetings.jpg" alt="Group fitness studio" width="1200"
+                <img src="./assets/42.jpg" alt="Group fitness studio" width="1200"
                   height="800" loading="lazy" />
                 <figcaption class="amenities__caption">Group fitness<br />studios</figcaption>
               </figure>
@@ -639,20 +644,12 @@
         <div class="safety__viewport" data-safety-viewport>
           <div class="safety__track" data-safety-track>
             <figure class="safety__slide" data-safety-slide>
-              <img src="./assets/living-meetings.jpg"
+              <img src="./src/assets/images/safety-paralax/1.jpg"
                 alt="Floor-to-ceiling glazing in a daylit residence" width="1200" height="800" loading="lazy" />
             </figure>
             <figure class="safety__slide" data-safety-slide>
-              <img src="./assets/hero.jpg" alt="Sakanela residence exterior" width="1200" height="800"
+              <img src="./src/assets/images/safety-paralax/2.jpg" alt="Sakanela residence exterior" width="1200" height="800"
                 loading="lazy" />
-            </figure>
-            <figure class="safety__slide" data-safety-slide>
-              <img src="./assets/living-work.jpg" alt="Open interior with a kitchen and seating"
-                width="1200" height="800" loading="lazy" />
-            </figure>
-            <figure class="safety__slide" data-safety-slide>
-              <img src="./assets/living-dining.jpg" alt="Dining room opening onto the living space"
-                width="1200" height="800" loading="lazy" />
             </figure>
           </div>
         </div>
