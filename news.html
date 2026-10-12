@@ -127,6 +127,8 @@
             aria-selected="true"
             aria-controls="news-panel-updates"
             data-news-tab
+            data-animate
+            data-animate-delay="1"
           >
             Project updates
           </button>
@@ -139,6 +141,8 @@
             aria-controls="news-panel-construction"
             tabindex="-1"
             data-news-tab
+            data-animate
+            data-animate-delay="2"
           >
             Construction news
           </button>
@@ -151,6 +155,8 @@
             aria-controls="news-panel-articles"
             tabindex="-1"
             data-news-tab
+            data-animate
+            data-animate-delay="3"
           >
             Articles / Blog
           </button>
@@ -165,22 +171,22 @@
           data-news-panel
         >
           <ul class="news__list">
-            <li>
+            <li data-animate>
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/hero.jpg"
                     alt="Illuminated tower above a city street at dusk"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-09-23">23 September 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
+                    <a href="news-details.html">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -191,22 +197,22 @@
                 </div>
               </article>
             </li>
-            <li>
+            <li data-animate data-animate-delay="1">
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/graft_slide1.jpg"
                     alt="Architectural view of the Sakanela building"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-09-23">23 September 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
+                    <a href="news-details.html">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -217,22 +223,22 @@
                 </div>
               </article>
             </li>
-            <li>
+            <li data-animate data-animate-delay="2">
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/history_1.jpg"
                     alt="Historic streetscape beside the project site"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-09-23">23 September 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
+                    <a href="news-details.html">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -243,22 +249,22 @@
                 </div>
               </article>
             </li>
-            <li>
+            <li data-animate data-animate-delay="3">
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/graft_slide2.jpg"
                     alt="Facade study for the Sakanela residences"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-09-23">23 September 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
+                    <a href="news-details.html">Silk Road Group's credit rating outlook upgraded to positive by Moody's</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -281,22 +287,22 @@
           hidden
         >
           <ul class="news__list">
-            <li>
+            <li data-animate>
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/masterplan.jpg"
                     alt="Site masterplan of courtyards and buildings"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-08-12">12 August 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Foundation works completed on the riverside wing</a>
+                    <a href="news-details.html">Foundation works completed on the riverside wing</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -307,22 +313,22 @@
                 </div>
               </article>
             </li>
-            <li>
+            <li data-animate data-animate-delay="1">
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/graft_slide3.jpg"
                     alt="Close view of the residential facade"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-07-04">4 July 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">Facade installation begins along the Mtkvari elevation</a>
+                    <a href="news-details.html">Facade installation begins along the Mtkvari elevation</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -345,22 +351,22 @@
           hidden
         >
           <ul class="news__list">
-            <li>
+            <li data-animate>
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/history_2.jpg"
                     alt="Quiet interior finished in warm timber"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-06-18">18 June 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">How daylight shapes the rooms at Sakanela</a>
+                    <a href="news-details.html">How daylight shapes the rooms at Sakanela</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -371,22 +377,22 @@
                 </div>
               </article>
             </li>
-            <li>
+            <li data-animate data-animate-delay="1">
               <article class="news-card">
-                <div class="news-card__media">
+                <a class="news-card__media" href="news-details.html">
                   <img
                     src="./assets/test2.jpg"
                     alt="Courtyard garden between the residences"
                     width="1200"
                     height="800"
                   />
-                </div>
+                </a>
                 <div class="news-card__body">
                   <time class="news-card__date" datetime="2026-05-02">2 May 2026</time>
                   <h2 class="news-card__title">
-                    <a href="#">A walk through the courtyards and quiet rooms</a>
+                    <a href="news-details.html">A walk through the courtyards and quiet rooms</a>
                   </h2>
-                  <a class="btn btn--outline news-card__more" href="#">
+                  <a class="btn btn--outline news-card__more" href="news-details.html">
                     <span class="btn__label">See full</span>
                     <span class="btn__arrow" aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -400,7 +406,7 @@
           </ul>
         </div>
 
-        <nav class="news__pagination" aria-label="News pages" data-news-pagination>
+        <nav class="news__pagination" aria-label="News pages" data-news-pagination data-animate data-animate-delay="2">
           <button class="news__page news__page--prev" type="button" data-news-page-step="-1" aria-label="Previous page">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                 <path d="M19 12H5M12 5l-7 7 7 7" />
