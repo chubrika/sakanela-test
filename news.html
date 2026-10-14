@@ -34,10 +34,14 @@
     <div class="site-header__inner">
       <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav"
         aria-label="Open menu">
-        <span class="nav-toggle__bars" aria-hidden="true">
-          <span class="nav-toggle__bar"></span>
-          <span class="nav-toggle__bar"></span>
-        </span>
+        <svg class="nav-toggle__bars" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="1">
+            <line class="nav-toggle__bar nav-toggle__bar--top" x1="0" y1="0.25" x2="100%" y2="0.25" />
+            <g class="nav-toggle__bar-shift">
+              <line class="nav-toggle__bar nav-toggle__bar--bottom" x1="0" y1="5.75" x2="100%" y2="5.75" />
+            </g>
+          </g>
+        </svg>
         <span class="nav-toggle__label">news</span>
       </button>
       <a class="logo" href="index.html" aria-label="Sakanela home">

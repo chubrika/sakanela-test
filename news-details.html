@@ -34,10 +34,14 @@
     <div class="site-header__inner">
       <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav"
         aria-label="Open menu">
-        <span class="nav-toggle__bars" aria-hidden="true">
-          <span class="nav-toggle__bar"></span>
-          <span class="nav-toggle__bar"></span>
-        </span>
+        <svg class="nav-toggle__bars" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="1">
+            <line class="nav-toggle__bar nav-toggle__bar--top" x1="0" y1="0.25" x2="100%" y2="0.25" />
+            <g class="nav-toggle__bar-shift">
+              <line class="nav-toggle__bar nav-toggle__bar--bottom" x1="0" y1="5.75" x2="100%" y2="5.75" />
+            </g>
+          </g>
+        </svg>
         <span class="nav-toggle__label">news</span>
       </button>
       <a class="logo" href="index.html" aria-label="Sakanela home">
@@ -165,15 +169,15 @@
         <div class="site-footer__contacts">
           <div class="site-footer__item">
             <p class="site-footer__label">Email</p>
-            <a class="site-footer__value underline" href="mailto:hello@sakanela.ge">hello@sakanela.ge</a>
+            <a class="site-footer__value underline bold" href="mailto:hello@sakanela.ge">hello@sakanela.ge</a>
           </div>
           <div class="site-footer__item">
             <p class="site-footer__label">Phone</p>
-            <a class="site-footer__value underline" href="tel:+9954747447">+995 47 474 47</a>
+            <a class="site-footer__value underline bold" href="tel:+9954747447">+995 47 474 47</a>
           </div>
           <div class="site-footer__item">
             <p class="site-footer__label">3 Tengiz Abuladze</p>
-            <p class="site-footer__value underline">Batumi, Georgia</p>
+            <p class="site-footer__value">Batumi, Georgia</p>
           </div>
         </div>
       </div>
