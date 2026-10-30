@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3ede4" />
+    <title>Sakanela — about inner</title>
+    <meta name="description"
+        content="Sakanela is a project about the history of Sakanela and the way of living at Sakanela." />
+    <meta property="og:title" content="Sakanela — about inner" />
+    <meta property="og:description"
+        content="Interiors, courtyards, and rooms designed to hold silence as carefully as light." />
+    <meta property="og:image" content="./images/og-image.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400&family=Outfit:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet" />
+      <script type="module" crossorigin src="./js/main.js"></script>
+      <link rel="stylesheet" crossorigin href="./style.css">
+    </head>
+
+<body class="page-shell about-page" data-page="about" id="top">
+    <div class="site-loader" data-site-loader role="status" aria-live="polite" aria-busy="true"
+        aria-label="Loading Sakanela">
+        <div class="site-loader__panel site-loader__panel--left" data-loader-panel="left"></div>
+        <div class="site-loader__panel site-loader__panel--right" data-loader-panel="right"></div>
+        <div class="site-loader__brand" data-loader-brand></div>
+    </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header site-header--overlay" data-header>
+        <div class="site-header__inner">
+            <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav"
+                aria-label="Open menu">
+                <svg class="nav-toggle__bars" aria-hidden="true">
+                    <g fill="none" stroke="currentColor" stroke-width="1">
+                        <line class="nav-toggle__bar nav-toggle__bar--top" x1="0" y1="0.25" x2="100%" y2="0.25" />
+                        <g class="nav-toggle__bar-shift">
+                            <line class="nav-toggle__bar nav-toggle__bar--bottom" x1="0" y1="5.75" x2="100%"
+                                y2="5.75" />
+                        </g>
+                    </g>
+                </svg>
+                <span class="nav-toggle__label">about inner</span>
+            </button>
+            <a class="logo" href="index.html" aria-label="Sakanela home">
+                <img src="./assets/en_logo.svg" alt="Sakanela by Silk Development" width="280"
+                    height="34" />
+            </a>
+            <a class="btn btn--outline site-header__contact" href="contact.html"> Contacts </a>
+        </div>
+    </header>
+    <nav class="site-nav" id="site-nav" data-nav data-lenis-prevent>
+        <ul class="site-nav__list">
+            <li>
+                <a class="site-nav__link" href="./index.html" data-nav-link>
+                    <span class="site-nav__spin"><span class="site-nav__face">Homepage</span><span
+                            class="site-nav__face site-nav__face--next" aria-hidden="true">Homepage</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="site-nav__link" href="about.html" data-nav-link>
+                    <span class="site-nav__spin"><span class="site-nav__face">About project</span><span
+                            class="site-nav__face site-nav__face--next" aria-hidden="true">About project</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="site-nav__link" href="architecture.html" data-nav-link>
+                    <span class="site-nav__spin"><span class="site-nav__face">architecture & design</span><span
+                            class="site-nav__face site-nav__face--next" aria-hidden="true">architecture &
+                            design</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="site-nav__link" href="news.html" data-nav-link>
+                    <span class="site-nav__spin"><span class="site-nav__face">news</span><span
+                            class="site-nav__face site-nav__face--next" aria-hidden="true">news</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="site-nav__link" href="contact.html" data-nav-link>
+                    <span class="site-nav__spin"><span class="site-nav__face">Contact</span><span
+                            class="site-nav__face site-nav__face--next" aria-hidden="true">Contact</span></span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="site-nav__footer">
+            <div class="site-nav__contact">
+                <p class="site-nav__contact-label">Email</p>
+                <a class="site-nav__contact-value" href="mailto:hello@sakanela.ge">hello@sakanela.ge</a>
+            </div>
+            <div class="site-nav__contact">
+                <p class="site-nav__contact-label">Phone</p>
+                <a class="site-nav__contact-value" href="tel:+9954747447">+995 47 474 47</a>
+            </div>
+            <nav class="site-nav__contact" aria-label="Follow Us">
+                <p class="site-nav__contact-label">Follow Us</p>
+                <ul class="site-nav__social">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="site-nav__languages" aria-label="Language">
+            <a class="site-nav__language is-active" href="index.html" hreflang="en" lang="en" aria-current="true"
+                aria-label="English"><span class="site-nav__language-text"><span class="site-nav__spin"><span
+                            class="site-nav__face">EN</span><span class="site-nav__face site-nav__face--next"
+                            aria-hidden="true">EN</span></span></span></a>
+            <a class="site-nav__language" href="index.html" hreflang="ka" lang="ka" aria-label="Georgian"><span
+                    class="site-nav__language-text"><span class="site-nav__spin"><span
+                            class="site-nav__face">GE</span><span class="site-nav__face site-nav__face--next"
+                            aria-hidden="true">GE</span></span></span></a>
+            <a class="site-nav__language" href="index.html" hreflang="ru" lang="ru" aria-label="Russian"><span
+                    class="site-nav__language-text"><span class="site-nav__spin"><span
+                            class="site-nav__face">RU</span><span class="site-nav__face site-nav__face--next"
+                            aria-hidden="true">RU</span></span></span></a>
+        </div>
+    </nav>
+
+    <main id="main">
+        <nav class="section-nav is-collapsed" data-section-nav aria-label="On this page">
+            <div class="section-nav__head">
+                <button class="section-nav__close" type="button" data-section-nav-close aria-expanded="false"
+                    aria-controls="section-nav-list" aria-label="Open project story">
+                    <p class="section-nav__label">Project story</p>
+                    <svg viewBox="0 0 12 12" width="20" height="20" aria-hidden="true">
+                        <g fill="none" stroke="currentColor" stroke-width="1">
+                            <line class="section-nav__icon-line section-nav__icon-line--top" x1="0.5" y1="3" x2="11.5"
+                                y2="3" />
+                            <line class="section-nav__icon-line section-nav__icon-line--middle" x1="0.5" y1="6"
+                                x2="11.5" y2="6" />
+                            <line class="section-nav__icon-line section-nav__icon-line--bottom" x1="0.5" y1="9"
+                                x2="11.5" y2="9" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <ul class="section-nav__list" id="section-nav-list" inert aria-hidden="true">
+                <li>
+                    <a class="section-nav__link" href="#overview" data-section-link>overview</a>
+                </li>
+                <li>
+                    <a class="section-nav__link" href="#history" data-section-link>history</a>
+                </li>
+                <li>
+                    <a class="section-nav__link" href="#silk_road_group" data-section-link>silk road group</a>
+                </li>
+                <li>
+                    <a class="section-nav__link" href="#partners" data-section-link>partners</a>
+                </li>
+                <li>
+                    <a class="section-nav__link" href="#how_we_differ" data-section-link>how we differ</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="section about-story about-story--overview about-story--profile" id="overview" data-overview
+            data-nav-tone="light" aria-labelledby="about-story-title">
+            <div class="hero__wave" aria-hidden="true"></div>
+            <div class="container about-story__inner">
+                <div class="about-story__grid">
+                    <div class="about-story__col about-story__col--left">
+                        <header class="about-story__head">
+                            <p class="about-story__eyebrow" data-animate>developer profile</p>
+                            <h2 class="about-story__title" id="about-story-title" data-animate>
+                                <span class="about-story__title-line">Silk</span>
+                                <span class="about-story__title-line">Development</span>
+                            </h2>
+                        </header>
+                        <div class="about-story__copy" data-animate data-animate-delay="1">
+                            <p class="about-story__lead">
+                                Silk Development is one of Georgia’s leading real estate developers and the
+                                development arm of Silk Road Group – one of the Caucasus region’s largest private
+                                investment groups, spanning hospitality, telecommunications, energy, banking, and
+                                media.
+                            </p>
+                            <p>
+                                Silk Development is one of Georgia’s leading real estate developers and the
+                                development arm of Silk Road Group – one of the Caucasus region’s largest private
+                                investment groups, spanning hospitality, telecommunications, energy, banking, and
+                                media.
+                            </p>
+                            <p>
+                                With 20 years on the market, the company has completed 10 major projects and
+                                attracted over $1.3 billion in investments.
+                            </p>
+                            <p>
+                                Each project is thoughtfully realised to the highest standards of construction,
+                                safety, and environmental responsibility – guided by a clear vision to create
+                                world-class architecture that blends seamlessly with its surroundings while
+                                elevating the way people live.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-story__col about-story__col--right">
+                        <figure class="about-story__figure about-story__figure--render">
+                            <div class="about-story__slides" data-overview-slider data-animate data-animate-delay="1">
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/hero.jpg"
+                                        alt="Coastal residences set among trees above the shoreline" width="1200"
+                                        height="800" />
+                                </figure>
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/graft_slide1.jpg"
+                                        alt="Silk Development architecture along the waterfront" width="1200"
+                                        height="800" loading="lazy" />
+                                </figure>
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/17.jpg"
+                                        alt="Contemporary residences in the city skyline" width="1200" height="800"
+                                        loading="lazy" />
+                                </figure>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section history-timeline" id="history" data-nav-tone="dark"
+            data-history-timeline aria-labelledby="history-title">
+            <div class="container history-timeline__inner">
+                <header class="history-timeline__head">
+                    <h2 class="history-timeline__title" id="history-title">History</h2>
+                </header>
+
+                <div class="timeline" data-timeline>
+                    <div class="timeline__axis" aria-hidden="true">
+                        <div class="timeline__line"></div>
+                        <div class="timeline__line-progress" data-timeline-progress></div>
+                    </div>
+
+                    <ol class="timeline__list" data-timeline-list>
+                        <li class="timeline__item timeline__item--left" id="history-1997"
+                            data-timeline-item data-milestone="1997">
+                            <div class="timeline__marker">
+                                <span class="timeline__year" data-timeline-year>1997</span>
+                                <span class="timeline__node" data-timeline-node></span>
+                            </div>
+                            <div class="timeline__body">
+                                <div class="timeline__media-wrap" data-timeline-media>
+                                    <figure class="timeline__media timeline__media--logo">
+                                        <img src="./assets/silk.png" alt="Silk Road Group"
+                                            width="400" height="200" loading="lazy" />
+                                    </figure>
+                                </div>
+                                <div class="timeline__content" data-timeline-content>
+                                    <h3 class="timeline__subtitle">Foundation and Expansion</h3>
+                                    <p class="timeline__copy">
+                                        Silk Road Group is established, laying the groundwork for a
+                                        diversified investment platform across the Caucasus region.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline__item timeline__item--right" id="history-2009"
+                            data-timeline-item data-milestone="2009">
+                            <div class="timeline__marker">
+                                <span class="timeline__year" data-timeline-year>2009</span>
+                                <span class="timeline__node" data-timeline-node></span>
+                            </div>
+                            <div class="timeline__body">
+                                <div class="timeline__media-wrap" data-timeline-media>
+                                    <figure class="timeline__media">
+                                        <img src="./assets/17.jpg"
+                                            alt="Landmark hospitality tower on the city skyline" width="1200"
+                                            height="900" loading="lazy" />
+                                    </figure>
+                                </div>
+                                <div class="timeline__content" data-timeline-content>
+                                    <h3 class="timeline__subtitle">Hospitality Landmark</h3>
+                                    <p class="timeline__copy">
+                                        A defining hospitality project rises on the skyline, marking the
+                                        group’s arrival in premium urban destinations.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline__item timeline__item--left" id="history-2015"
+                            data-timeline-item data-milestone="2015">
+                            <div class="timeline__marker">
+                                <span class="timeline__year" data-timeline-year>2015</span>
+                                <span class="timeline__node" data-timeline-node></span>
+                            </div>
+                            <div class="timeline__body">
+                                <div class="timeline__media-wrap" data-timeline-media>
+                                    <figure class="timeline__media">
+                                        <img src="./assets/history_1.jpg"
+                                            alt="Tbilisi skyline along the river at sunset" width="1200"
+                                            height="800" loading="lazy" />
+                                    </figure>
+                                </div>
+                                <div class="timeline__content" data-timeline-content>
+                                    <h3 class="timeline__subtitle">Urban Presence</h3>
+                                    <p class="timeline__copy">
+                                        The portfolio expands into mixed-use and residential development,
+                                        shaping how the city lives, works, and gathers.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline__item timeline__item--right" id="history-2025"
+                            data-timeline-item data-milestone="2025">
+                            <div class="timeline__marker">
+                                <span class="timeline__year" data-timeline-year>2025</span>
+                                <span class="timeline__node" data-timeline-node></span>
+                            </div>
+                            <div class="timeline__body">
+                                <div class="timeline__media-wrap" data-timeline-media>
+                                    <figure class="timeline__media">
+                                        <img src="./assets/graft.jpg"
+                                            alt="Contemporary architecture by Silk Development" width="1200"
+                                            height="900" loading="lazy" />
+                                    </figure>
+                                </div>
+                                <div class="timeline__content" data-timeline-content>
+                                    <h3 class="timeline__subtitle">Capital Milestone</h3>
+                                    <p class="timeline__copy">
+                                        Silk Road Group issues $400 million in bonds — the largest private
+                                        corporate issuance in Georgia’s history.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="companies" id="silk_road_group" data-nav-tone="light" aria-labelledby="companies-title">
+            <div class="companies__marks" aria-hidden="true">
+                <img src="./assets/bg.svg" alt="" width="171" height="92" />
+            </div>
+            <div class="container companies__inner">
+                <header class="companies__head">
+                    <p class="companies__eyebrow" data-animate>Silk Road Group</p>
+                    <h2 class="companies__title" id="companies-title" data-animate>
+                        <span class="companies__title-line">Companies owned by</span>
+                        <span class="companies__title-line">Silk Road Group</span>
+                    </h2>
+                    <p class="companies__lead" data-animate data-animate-delay="1">
+                        The Silk Road Group is one of the leading private investment groups in the region,
+                        operating across various sectors including transportation, technology, trading, media
+                        &amp; IT, energy, real estate, retail, hospitality &amp; entertainment, telecommunications,
+                        and banking. In 2025, Silk Road Group issued $400 million in bonds, marking the largest
+                        private corporate issuance in Georgia’s history.
+                    </p>
+                </header>
+
+                <ul class="companies__list">
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Development – </br> a real estate development company focused on residential,
+                            commercial,
+                            and mixed-use projects in Georgia.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Hospitality – </br> a hospitality company managing luxury hotels, resorts, restaurants,
+                            and tourism destinations.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silknet – </br> one of Georgia’s leading telecommunications providers offering mobile,
+                            internet,
+                            TV, and enterprise services.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Bank – </br> a commercial bank providing retail, corporate, and digital banking
+                            services
+                            in Georgia.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Development – </br> a real estate development company focused on residential,
+                            commercial,
+                            and mixed-use projects in Georgia.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Hospitality – </br> a hospitality company managing luxury hotels, resorts, restaurants,
+                            and tourism destinations.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silknet – </br> one of Georgia’s leading telecommunications providers offering mobile,
+                            internet,
+                            TV, and enterprise services.
+                        </p>
+                    </li>
+                    <li class="companies__item">
+                        <div class="companies__card" data-animate>
+                            <img class="companies__logo" src="./assets/silk.png" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="companies__caption">
+                            Silk Bank – </br> a commercial bank providing retail, corporate, and digital banking
+                            services
+                            in Georgia.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="partners" id="partners" data-nav-tone="light" aria-labelledby="partners-title">
+            <div class="container partners__inner">
+                <header class="partners__head">
+                    <p class="partners__eyebrow" data-animate>Partners</p>
+                    <h2 class="partners__title" id="partners-title" data-animate>
+                        <span class="partners__title-line">Pursues excellence</span>
+                        <span class="partners__title-line partners__title-line--accent">Through collaboration</span>
+                    </h2>
+                    <p class="partners__lead" data-animate data-animate-delay="1">
+                        Silk Development pursues excellence through collaboration with leading professionals from
+                        around the world. To bring ambitious visions to life, the company partners with renowned
+                        architects, designers, consultants, contractors, and industry experts. Each project is the
+                        result of a continuous dialogue between professionals: combining global experience,
+                        thoughtful design, and a shared commitment to quality, innovation, and lasting value.
+                    </p>
+                </header>
+
+                <ul class="partners__list">
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">KKAA</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">Neri &amp; Hu</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">David Chipperfield Architects</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">Graft</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">KKAA</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">Neri &amp; Hu</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">David Chipperfield Architects</p>
+                    </li>
+                    <li class="partners__item">
+                        <div class="partners__card" data-animate>
+                            <img class="partners__photo" src="./assets/graft.jpg" alt="" width="400"
+                                height="200" />
+                        </div>
+                        <p class="partners__caption">Graft</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section about-story about-story--overview about-story--profile about-story--differ" id="how_we_differ"
+            data-overview data-nav-tone="light" aria-labelledby="differ-title">
+            <div class="hero__wave" aria-hidden="true"></div>
+            <div class="container about-story__inner">
+                <div class="about-story__grid">
+                    <div class="about-story__col about-story__col--left">
+                        <header class="about-story__head">
+                            <p class="about-story__eyebrow" data-animate>How we differ</p>
+                            <h2 class="about-story__title" id="differ-title" data-animate>
+                                <span class="about-story__title-line">We do not</span>
+                                <span class="about-story__title-line">follow</span>
+                                <span class="about-story__title-line about-story__title-line--accent">the market,</span>
+                                <span class="about-story__title-line about-story__title-line--accent">we define it</span>
+                            </h2>
+                        </header>
+                        <div class="about-story__copy" data-animate data-animate-delay="1">
+                            <p class="about-story__lead font-16">
+                                In a market defined by rapid growth, Silk Development consistently sets the
+                                benchmark. The company behind Georgia’s first Leading Hotels of the World
+                                property, its largest private bond issuance, and its most anticipated luxury
+                                residential development – Silk Towers – Silk Development does not follow the
+                                market. It defines it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-story__col about-story__col--right">
+                        <figure class="about-story__figure about-story__figure--render">
+                            <div class="about-story__slides" data-overview-slider data-animate data-animate-delay="1">
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/hero.jpg"
+                                        alt="Coastal residences set among trees above the shoreline" width="1200"
+                                        height="800" />
+                                </figure>
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/graft_slide1.jpg"
+                                        alt="Silk Development architecture along the waterfront" width="1200"
+                                        height="800" loading="lazy" />
+                                </figure>
+                                <figure class="about-story__slide" data-overview-slide>
+                                    <img src="./assets/17.jpg"
+                                        alt="Contemporary residences in the city skyline" width="1200" height="800"
+                                        loading="lazy" />
+                                </figure>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="section roadmap" id="roadmap" data-nav-tone="dark" aria-labelledby="roadmap-title">
+            <div class="container roadmap__inner">
+                <h2 class="roadmap__title" id="roadmap-title" data-animate>Roadmap</h2>
+                <a class="roadmap__stream" href="#" data-animate data-animate-delay="1">
+                    See Live Stream
+                    <span class="roadmap__live" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <div class="site-footer__intro">
+                <h2 class="site-footer__title">Let’s talk</h2>
+                <div class="site-footer__contacts">
+                    <div class="site-footer__item">
+                        <p class="site-footer__label">Email</p>
+                        <a class="site-footer__value underline" href="mailto:hello@sakanela.ge">hello@sakanela.ge</a>
+                    </div>
+                    <div class="site-footer__item">
+                        <p class="site-footer__label">Phone</p>
+                        <a class="site-footer__value underline" href="tel:+9954747447">+995 47 474 47</a>
+                    </div>
+                    <div class="site-footer__item">
+                        <p class="site-footer__label">3 Tengiz Abuladze</p>
+                        <p class="site-footer__value underline">Batumi, Georgia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__menus">
+                <nav class="site-footer__col" aria-labelledby="footer-sitemap">
+                    <p class="site-footer__heading" id="footer-sitemap">Sitemap</p>
+                    <ul class="site-footer__list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Project</a></li>
+                        <li><a href="#architecture">Architecture &amp; Design</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="site-footer__col" aria-labelledby="footer-legal">
+                    <p class="site-footer__heading" id="footer-legal">Legal</p>
+                    <ul class="site-footer__list">
+                        <li><a href="#terms">Terms &amp; Conditions</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                <nav class="site-footer__col" aria-labelledby="footer-social">
+                    <p class="site-footer__heading" id="footer-social">Follow Us</p>
+                    <ul class="site-footer__list">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </nav>
+                <div class="site-footer__col">
+                    <a class="site-footer__heading site-footer__top" href="#top" data-back-to-top>
+                        Back to top
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container site-footer__bar">
+            <p>&copy; <span data-year></span> All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <aside class="cookie-banner" data-cookie-banner hidden role="dialog" aria-labelledby="cookie-banner-title">
+        <p class="cookie-banner__text" id="cookie-banner-title">
+            We use cookies to enhance<br />
+            Your experience
+        </p>
+        <div class="cookie-banner__actions">
+            <button class="cookie-banner__btn cookie-banner__btn--accept" type="button"
+                data-cookie-accept>Accept</button>
+            <button class="cookie-banner__btn cookie-banner__btn--reject" type="button"
+                data-cookie-decline>Decline</button>
+        </div>
+    </aside>
+
+</body>
+
+</html>
